@@ -1,0 +1,14 @@
+Ayril is an XML library in MacRuby that uses Cocoa NSXML classes. It thus has a 
+very specific audience; for now, Cocoa developers on Mac OS X Leopard. This may
+change in the future as MacRuby expands its targeted platforms.
+
+Ayril subclasses all NSXML classes (with the exception of NSXMLParser) and 
+enhances them with useful methods and paradigms inspired by the Prototype 
+JavaScript framework and other Ruby XML libraries such as Hpricot and REXML.
+
+MacRuby developers have had numerous options when it comes to processing XML. 
+One could use REXML, the pure Ruby core library; Hpricot, the mostly-C library; 
+LibXML, a Ruby binding for the libxml2 toolkit written in C; or the Cocoa NSXML 
+classes, written in pure Objective-C and accessible directly through MacRuby. 
+Now, developers have yet another option: Ayril, which takes advantage of the 
+speed of NSXML classes and employs more Ruby-isms than the NSXML classes do.
